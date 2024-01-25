@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="15dp"
+    app:cardPreventCornerOverlap="true"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:elevation="10dp">
+    <ImageView
+        android:id="@+id/search_topic_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/custom_search_news"
+        android:src="@drawable/in"
+        android:scaleType="centerCrop">
+
+    </ImageView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="100dp"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/search_topic_tv"
+            tools:text="Top HighLites"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="21sp"
+            android:textColor="@android:color/white"
+            android:alpha="0.8"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
